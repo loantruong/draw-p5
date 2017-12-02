@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald.ttf') format('truetype');
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: rgb(200, 200, 200);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    line-height: 1.6em;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+#page {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+}
+#content {
+    background: rgba(200, 200, 200, 0.7);
+    padding: 5px 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1024px) {
+    #page {
+        bottom: 90%;
+        width: 100%;
+    }
+    #content {
+        width: 80%;
+    }
+}
